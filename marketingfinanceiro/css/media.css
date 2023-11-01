@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 760px){
+
+    header {
+        flex-direction: column;
+    }
+
+    li {
+        margin: 7px;
+        font-size: 13px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 38px;
+    }
+
+    form {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    main > aside > p {
+        text-align: justify;
+    }
+
+    input {
+        align-self: center;
+    }
+
+    #margin {
+        margin-bottom: 20px;
+    }
+
+    img {
+        display: none;
+    }
+}
